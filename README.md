@@ -134,8 +134,8 @@ coffee-sales-powerbi
 │
 ├── Coffee_Sales_Dashboard.pbix         # Main Power BI report file
 ├── README.md                           # Project documentation
-├── dashboard_main.png                  # Screenshot — Sales Dashboard
-└── category_deep_dive.png              # Screenshot — Category Analysis
+├── Sales dashboard.png                  # Screenshot — Sales Dashboard
+└── category Analysis.png              # Screenshot — Category Analysis
 ```
 
 ---
