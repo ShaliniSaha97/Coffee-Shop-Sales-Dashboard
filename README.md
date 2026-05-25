@@ -1,17 +1,18 @@
 # ☕ Coffee Sales Dashboard — Power BI Project
 
-> An end-to-end Power BI report analyzing coffee shop sales across multiple store locations, product categories, and time periods.
-
+> An end-to-end interactive Power BI dashboard analyzing coffee shop sales across multiple store locations, product categories, and time periods — built with advanced Power BI features including Drillthrough, Tooltip Pages, Dynamic Title, Slicers, and DAX measures.
 ---
 ## 📸 Dashboard Preview
 
 ### Sales Dashboard (Main Page)
-![Coffee Sales Dashboard](<img width="1326" height="786" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/c90470a9-eb36-491e-86c0-92a393497f2d" />
-)
+
+<img width="1326" height="786" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/c90470a9-eb36-491e-86c0-92a393497f2d" />
+
 
 ### Category Deep Dive (Drillthrough Page)
-![Category Deep Dive](<img width="1331" height="792" alt="Category Analysis" src="https://github.com/user-attachments/assets/a2223a51-5430-4da4-b4b7-246e8b5a0092" />
-)
+
+<img width="1331" height="792" alt="Category Analysis" src="https://github.com/user-attachments/assets/a2223a51-5430-4da4-b4b7-246e8b5a0092" />
+
 
 ---
 ## 📌 Project Overview
@@ -116,6 +117,8 @@ Relationships are set up to allow cross-filtering across all visuals by store, c
 
 ## 🛠️ Tools & Technologies
 
+| Tool | Purpose |
+|---|---|
 - **Power BI Desktop** — Report development
 - **Power Query (M)** — Data transformation and cleaning
 - **DAX** — Calculated measures and KPIs
@@ -123,16 +126,84 @@ Relationships are set up to allow cross-filtering across all visuals by store, c
 
 ---
 
-## 📁 File Structure
+
+## 📁 Project Structure
 
 ```
-coffee-sales-powerbi/
+coffee-sales-powerbi
 │
-├── COFFEE.pbix               # Main Power BI report file
-├── README.md                 # Project documentation
-├── dashboard_main.png        # Screenshot — Sales Dashboard
-└── category_deep_dive.png    # Screenshot — Category Analysis
+├── Coffee_Sales_Dashboard.pbix         # Main Power BI report file
+├── README.md                           # Project documentation
+├── dashboard_main.png                  # Screenshot — Sales Dashboard
+└── category_deep_dive.png              # Screenshot — Category Analysis
 ```
 
 ---
+
+> 💡 **Tip:** Right-click any store or category data point on the main dashboard → Select **Drill through → Category Analysis** to navigate to the deep-dive page with filters automatically applied.
+
+---
+
+## 🚀 How to Use
+
+### Prerequisites
+- **Power BI Desktop** (free) — [Download here](https://powerbi.microsoft.com/desktop/)
+
+### Steps
+
+1. **Clone or download** this repository
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/coffee-sales-powerbi.git
+   ```
+
+2. **Open the file** — double-click `Coffee_Sales_Dashboard.pbix` or open via Power BI Desktop → File → Open
+
+3. **Explore the dashboard:**
+   - Use the **dropdown slicers** (Category / Location / Month) to filter
+   - Click **store name buttons** on the left panel to filter by location
+   - **Right-click** any data point → Drill through → Category Analysis
+   - **Hover** over store or category visuals to see custom tooltip pages
+   - Use the **back button** (top-left on drillthrough pages) to return
+
+4. **Switch pages** using the tabs at the bottom: Sales Dashboard → Category Analysis → TT Sales by Location → TT Sales by PC
+
+---
+
+
+
+## 🌱 What I Learned 
+
+Building this dashboard taught me:
+
+- How to design a **multi-page report** with a clear user journey
+- Creating **drillthrough pages** for contextual deep-dives
+- Building **custom tooltip pages** to add hover context
+- Writing **DAX measures** for MOM growth, rolling periods, and GT%
+- Setting up a proper **Date table** and marking it correctly
+- Using **conditional formatting** in tables to highlight performance
+- Designing with **consistent color themes** (coffee brown palette 🟤)
+- The difference between **report-level**, **page-level**, and **visual-level** filters
+
+---
+
+## 👩‍💻 About the Author
+
+**Shalini Saha**  
+*Data Analyst | Power BI | Excel | SQL*
+
+💬 Passionate about transforming raw HR data into meaningful workforce insights  
+🔗 [LinkedIn](https://www.linkedin.com/in/shalini-saha-b127b428b/) | [GitHub](https://github.com/ShaliniSaha97/)
+
+
+---
+
+## ⭐ If you found this helpful
+
+Give this repo a ⭐ star — it helps others find it and motivates me to keep building!
+
+---
+
+*Built with ❤️ and lots of ☕*
+
+
 
